@@ -1,29 +1,20 @@
-# README #
+# Install uv
+https://docs.astral.sh/uv/#highlights
 
-This README would normally document whatever steps are necessary to get your application up and running.
+# Install python packages from pyproject.toml
+> uv sync
 
-### What is this repository for? ###
+# Add .env file
+OPENAI_API_KEY="Your API key from https://platform.openai.com/settings/organization/api-keys"
+OPENAI_API_BASE="https://api.openai.com/v1"
+FIRECRAWL_API_KEY="Your API key from https://www.firecrawl.dev/"
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+# Run main.py
+> uv run main.py
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+# Reference
+https://platform.openai.com/docs/overview
+https://platform.openai.com/docs/pricing
+https://docs.crewai.com/en/introduction
+https://docs.crewai.com/en/concepts/llms
+https://nomadcoders.co/ai-agents-masterclass#features
